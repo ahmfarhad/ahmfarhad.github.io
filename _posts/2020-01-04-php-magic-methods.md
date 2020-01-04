@@ -10,8 +10,8 @@ You can make your PHP classes dynamic by using magic methods.
 
 Example usages:
 - a model class which fetches a database record can use magic properties to return each record's field value.
-  - `$user_name = $user.name` fetch name field from user record,
-  - `$user_age = $user.age` fetch age field from user record
+  - `$user_name = $user.age` returns age field from user row,
+  - `$user_age = $user.created_at` returns record creation date
 - a model class which fetches a database record can use magic methods to get custom criteria for each field. 
   - `whereAge(10)` where age = 10,
   - `whereCity('london')` where city = 'london'
