@@ -43,7 +43,7 @@ function calculateDistance(coordinate1, coordinate2)
 Not good:
 
 ```javascript
-function isExpired(start_date, end_date)
+function calculateLength(start_date, end_date)
 ```
 
 Better:
