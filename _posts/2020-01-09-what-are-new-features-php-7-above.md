@@ -12,36 +12,36 @@ PHP 7.0 to PHP 7.3:
 
 - Spaceship operator: `<=>`
 
-```php
-// if first operator is correct it returns -1, second 0 and third +1
-echo 1 <=> 2; // -1
-echo 1 <=> 1; // 0
-echo 2 <=> 1; // 1
-```
+  ```php
+  // if first operator is correct it returns -1, second 0 and third +1
+  echo 1 <=> 2; // -1
+  echo 1 <=> 1; // 0
+  echo 2 <=> 1; // 1
+  ```
 
 - intdiv: integer division
 
-```php
-echo intdiv(10, 3); // 3
-```
+  ```php
+  echo intdiv(10, 3); // 3
+  ```
 
 - Type hinting
 - Group Use Declarations:
 
-```php
-use FooLibrary\Bar\Baz\{ ClassA, ClassB, ClassC as Fizbo }
-```
+  ```php
+  use FooLibrary\Bar\Baz\{ ClassA, ClassB, ClassC as Fizbo }
+  ```
 
 - Return Type Declarations
 - Multi catch
 - Void Return Type; no return or just return; NULL is not a valid return value for a void function
 - Nullable types:
 
-```php
-function test(?string $name){
-    var_dump($name);
-}
-```
+  ```php
+  function test(?string $name){
+      var_dump($name);
+  }
+  ```
 
 - Argon2 in password hash
 - Null checking operator:
@@ -51,17 +51,17 @@ function test(?string $name){
 - NULL is not a valid return value for a void function
 - Support for negative string offsets:
 
-```php
-"abcdef"[-2] // 'e'
-```
+  ```php
+  "abcdef"[-2] // 'e'
+  ```
 
 - New object type:
 
-```php
-function test(object $obj) : object {
-  return new SplQueue();
-}
-```
+  ```php
+  function test(object $obj) : object {
+    return new SplQueue();
+  }
+  ```
 
 PHP 7.4:
 
@@ -70,11 +70,11 @@ PHP 7.4:
 - Weak refs: allow keeping a reference to an object and preventing the object from being destroyed
 - Null Coalescing Assignment Operator:
 
-```php
-$data['comments']['user_id'] ??= 'value';
-```
+  ```php
+  $data['comments']['user_id'] ??= 'value';
+  ```
 
-PHP 8.0
+PHP 8.0:
 
 - Just in Time Compiler:
   - Let the codes run directly by CPU
