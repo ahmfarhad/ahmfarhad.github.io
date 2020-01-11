@@ -25,8 +25,8 @@ PHP 7.0 to PHP 7.3:
   echo intdiv(10, 3); // 3
   ```
 
-- Type hinting
-- Group Use Declarations:
+* Type hinting
+* Group Use Declarations:
 
   ```php
   use FooLibrary\Bar\Baz\{ ClassA, ClassB, ClassC as Fizbo }
@@ -43,19 +43,19 @@ PHP 7.0 to PHP 7.3:
   }
   ```
 
-- Argon2 in password hash
-- Null checking operator:
+* Argon2 in password hash
+* Null checking operator:
   `??`
-- const array using define
-- safe unserialize for untrusted data using whitelist classes
-- NULL is not a valid return value for a void function
-- Support for negative string offsets:
+* const array using define
+* safe unserialize for untrusted data using whitelist classes
+* NULL is not a valid return value for a void function
+* Support for negative string offsets:
 
   ```php
   "abcdef"[-2] // 'e'
   ```
 
-- New object type:
+* New object type:
 
   ```php
   function test(object $obj) : object {
