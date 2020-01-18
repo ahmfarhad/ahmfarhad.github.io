@@ -10,6 +10,8 @@ An easy way to reduce functions/methods length and stick to single responsibilit
 
 Use caching to serve faster, time-consuming expressions.
 
+In general, favor readability over minor performance gain. These days most compilers are smart enough to make the code perform better.
+
 Not good:
 
 ```ruby
@@ -40,7 +42,7 @@ Not good:
 
 ```javascript
 function getTotalWithDiscount(items) {
-  discount = 0;
+  let discount = 0;
   if (items.length > 100) {
     discount = 0.5;
   } else if (items.length > 50) {
