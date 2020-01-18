@@ -6,7 +6,7 @@ tags: [development, clean code, code smell]
 comments: true
 ---
 
-An easy way to reduce functions/methods length and stick to single responsibility is to extract a portion of the function body as a separate function/method.
+An easy way to reduce functions/methods length and stick to single responsibility principle is to extract a portion of the function body as a separate function/method.
 
 Use caching to serve faster, time-consuming expressions.
 
