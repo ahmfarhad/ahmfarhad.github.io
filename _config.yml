@@ -147,7 +147,7 @@ excerpt_length: 50
 title-separator: "-"
 
 # Ruby Date Format
-date_format: #
+date_format: ""
 
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
